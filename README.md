@@ -1,3 +1,4 @@
+
 RedLETR
 =======
 
@@ -11,3 +12,19 @@ Importantly, our new version contains added features not available in the basic 
 We have provided our code and documentation as a resource for similar institutions likewise interested in moving clinical research stores to more flexible advanced databases.
 
 Please check the WIKI and accompanying snippets; these provide the most useful design patterns for data cleanup and migration.
+
+
+To set up a virtual environment, do the following (On an Ubuntu Linux Platform)
+
+sudo pip install virtualenv
+sudo pip install virtualenvwrapper
+
+#I also recommend installing the workon code as it makes it easier
+
+export WORKON_HOME=~/.virtualenvs
+mkdir $WORKON_HOME
+#Add this to your ~/.bashrc
+echo "export WORKON_HOME=$WORKON_HOME" >> ~/.bashrc
+
+#setup virtualenvwrapper
+
